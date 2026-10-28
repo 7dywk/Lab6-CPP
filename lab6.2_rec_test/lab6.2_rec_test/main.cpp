@@ -10,7 +10,7 @@ int main() {
     const int size = 5;
     int test_array[size] = {10, -5, 20, 0, 15};
     
-    // У рекурсії не забуваємо про дефолтні параметри або передаємо їх явно, якщо того вимагає функція
+
     assert(MinIndex(test_array, size) == 1);
     assert(MaxIndex(test_array, size) == 2);
     assert(MeanIndices(test_array, size) == 1.5);
